@@ -119,3 +119,12 @@ require('lazy').setup({
     },
   },
 })
+
+-- MANUALLY ENABLINGS NPM LANGUAGE SERVER
+
+vim.lsp.enable 'html'
+vim.lsp.enable 'cssmodules_ls'
+vim.lsp.enable 'css_variables'
+vim.lsp.enable 'cssls'
+vim.lsp.enable 'ts_ls'
+vim.lsp.enable 'bashls'
